@@ -91,6 +91,23 @@ header .container nav ul {
 
 header .container nav ul a {
   color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header .container nav ul a:hover {
+  text-decoration: underline;
+}
+
+header .container nav ul .button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+header .container nav ul .button:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 /* MAIN */
@@ -164,6 +181,11 @@ section .container .box .container-light h3 {
   font-size: 1.3em;
   color: black;
 }
+
+section .container .box .container-light p {
+  font-style: italic;
+  color: black;
+}
 /* /Planning */
 
 /* Testimonials */
@@ -192,8 +214,8 @@ section .container .box .container-light h3 {
 }
 
 .testimonials .container .box  img {
-  width: 170px;
-  height: 170px;
+  width: 160px;
+  height: 150px;
   border-radius: 100%;
 }
 
@@ -203,18 +225,25 @@ section .container .box .container-light h3 {
 
 .testimonials .container .box span {
   margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 /* /Testimonials */
 
 /* Benefits */
+.benefits .container h2 {
+  padding-bottom: 40px;
+}
+
 .benefits .box span {
   color: #9792E4;
-  font-size: 2em;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 .benefits h2 {
   color: white;
-  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .benefits .box h2 {
@@ -387,5 +416,15 @@ footer .container a {
   .started p {
     width: 65%;
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 1140px) {
+  header .container nav ul {
+    display: inline-flex;
+  }
+
+  header .container nav i {
+    display: none;
   }
 }
