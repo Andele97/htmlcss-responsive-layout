@@ -14,6 +14,7 @@ header {
   height: 75px;
   background-color: #0084FD;
   display: flex;
+  margin-bottom: 45px;
 }
 
 .container {
@@ -43,4 +44,17 @@ header .container nav ul {
 header .container nav ul a {
   text-decoration: none;
   color: white;
+}
+
+/* MAIN */
+
+main .container {
+
+}
+
+main .container .box {
+  height: 200px;
+  background-color: #B5DDFF;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
