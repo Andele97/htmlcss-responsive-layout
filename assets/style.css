@@ -5,3 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  height: 75px;
+  background-color: #0084FD;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 310px;
+  margin: 0 auto;
+}
