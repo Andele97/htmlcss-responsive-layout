@@ -25,6 +25,10 @@ section {
   padding-bottom: 40px;
 }
 
+p {
+  line-height: 25px;
+}
+
 .container {
   width: 85vw;
   margin: 0 auto;
@@ -84,7 +88,6 @@ header .container nav ul a {
 .container .box p {
   color: #536575;
   margin-bottom: 40px;
-  line-height: 25px;
 }
 
 .container .box .container-text .button::before {
@@ -115,7 +118,6 @@ header .container nav ul a {
 /* /Box */
 
 /* Planning */
-
 section .container img {
   width: 100%;
   margin-bottom: 50px;
@@ -128,7 +130,6 @@ section .container .plantop h2 {
 
 section .container .plantop p {
   color: white;
-  line-height: 25px;
   margin-bottom: 30px;
 }
 
@@ -142,4 +143,40 @@ section .container .box {
 section .container .box .container-light h3 {
   font-size: 1.3em;
   color: black;
+}
+/* /Planning */
+
+/* Testimonials */
+.testimonials {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+}
+
+.testimonials .container .text {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.testimonials .container .text h2 {
+  margin-bottom: 30px;
+  color: #9792E4;
+}
+
+.testimonials .container .box {
+  background-color: #9792E4;
+  display: flex;
+  align-items: center;
+}
+
+.testimonials .container .box  img {
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+}
+
+.testimonials .container .box p,span {
+  color: white;
 }
