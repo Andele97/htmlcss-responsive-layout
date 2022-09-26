@@ -17,6 +17,13 @@ header {
   margin-bottom: 45px;
 }
 
+footer {
+  height: 230px;
+  background-color: #333333;
+  display: flex;
+  text-align: center;
+}
+
 section {
   background-color: #9792E4;
   width: 100%;
@@ -281,3 +288,14 @@ section .container .box .container-light h3 {
   color: white;
 }
 /* /Started */
+
+/* FOOTER */
+footer .container p {
+  margin-top: 50px;
+  color: white;
+  line-height: 20px;
+}
+
+footer .container a {
+  color: #9792E4;
+}
