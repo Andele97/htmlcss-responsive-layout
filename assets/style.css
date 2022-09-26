@@ -349,4 +349,30 @@ footer .container a {
     width: 60%;
   }
 
+  .about-us .container {
+    width: 90%;
+    text-align: left;
+    display: flex;
+   }
+
+  .about-us .container h2 {
+    font-size: 4em;
+  }
+
+  .about-us .container p {
+    width: 70%;
+  }
+
+  .about-us .container .about {
+    width: 40%;
+  }
+
+  .about-us .container .about h4 {
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+
+  .about-us .container .about .button {
+    padding: 10px;
+  }
 }
