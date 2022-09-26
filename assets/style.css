@@ -323,6 +323,10 @@ footer .container a {
     padding: 10px;
   }
 
+  .testimonials .container .text h2 {
+    font-size: 2.2em;
+  }
+
   .testimonials .container .box .text {
     text-align: left;
     margin-left: 20px;
@@ -374,5 +378,14 @@ footer .container a {
 
   .about-us .container .about .button {
     padding: 10px;
+  }
+
+  .started .container h3 {
+    font-size: 2.4em;
+  }
+
+  .started p {
+    width: 65%;
+    margin: 0 auto;
   }
 }
