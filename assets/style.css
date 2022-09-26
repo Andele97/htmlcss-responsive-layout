@@ -17,9 +17,25 @@ header {
   margin-bottom: 45px;
 }
 
+section {
+  background-color: #9792E4;
+  width: 100%;
+  margin-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
 .container {
-  width: 310px;
+  width: 85vw;
   margin: 0 auto;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: #0084FD;
+  padding: 10px 50px;
+  border-radius: 30px;
 }
 
 /* HEADER */
@@ -42,19 +58,88 @@ header .container nav ul {
 }
 
 header .container nav ul a {
-  text-decoration: none;
   color: white;
 }
 
 /* MAIN */
 
-main .container {
-
-}
-
-main .container .box {
-  height: 200px;
+/* Box */
+.container .box {
   background-color: #B5DDFF;
   border-radius: 20px;
   margin-bottom: 20px;
+}
+
+.container .box .container-text {
+  width: 70vw;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.container .box h3 {
+  color: #0686FD;
+  margin-bottom: 20px;
+}
+
+.container .box p {
+  color: #536575;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+
+.container .box .container-text .button::before {
+  font-family: 'FontAwesome';
+  content: '\f179';
+  color: white;
+  padding-right: 10px;
+}
+
+.container .box img {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.container .box .container-light {
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.container .box .container-light i {
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: #0686FD;
+}
+/* /Box */
+
+/* Planning */
+
+section .container img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+section .container .plantop h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+section .container .plantop p {
+  color: white;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+section .container .box {
+  border-radius: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+section .container .box .container-light h3 {
+  font-size: 1.3em;
+  color: black;
 }
