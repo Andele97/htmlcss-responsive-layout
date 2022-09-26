@@ -138,9 +138,17 @@ header .container nav ul .button:hover {
   padding-right: 10px;
 }
 
-.container .box img {
-  margin-top: 40px;
+.container .box .imagetop {
+  margin-top: 30px;
+  width: 200px;
+  height: 300px;
+  align-items: right;
+}
+
+.container .box .imagetop img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .container .box .container-light i {
@@ -217,6 +225,7 @@ section .container .box .container-light p {
   width: 160px;
   height: 150px;
   border-radius: 100%;
+  margin-top: 20px;
 }
 
 .testimonials .container .box p,span {
@@ -342,8 +351,52 @@ footer .container a {
 /* RESPONSIVE */
 
 @media (min-width: 810px) {
-  .container .box img {
-    width: 50%;
+  .container {
+    width: 92%;
+  }
+  
+  .container .box .container-text {
+   margin-left: 20px;
+  }
+
+  .container .box:first-child {
+    width: 65%;
+  }
+
+  .container .box .container-text p {
+    width: 70%;
+  }
+
+  .container .conteiner-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container .box {
+    width: 260px;
+    margin-right: 10px;
+  }
+
+  .container .box .container-light i,
+  .container .box .container-light h3 {
+    width: 35%;
+  }
+
+  .container .box .container-light p {
+    width: 20%;
+    margin-left: 55px
+  }
+
+  section .container .box {
+    width: 100%;
+  }
+
+  section .container .box .container-light h3 {
+    width: 110%;
+  }
+
+  section .container .box .container-light p {
+    width: 90%;
   }
 
   .testimonials .container .box {
@@ -379,7 +432,7 @@ footer .container a {
   }
 
   .benefits .container .box p {
-    width: 60%;
+    width: 50%;
   }
 
   .about-us .container {
@@ -426,5 +479,81 @@ footer .container a {
 
   header .container nav i {
     display: none;
+  }
+
+  .container {
+    width: 1140px;
+  }
+
+  .container .box {
+    width: 30%;
+    margin: 10px auto;
+  }
+
+  .container .box:first-child {
+    display: flex;
+  }
+
+  .container .box .container-text p {
+    width: 25%;
+  }
+
+  .container .box .container-light p {
+    width: 10%;
+    margin-left: 90px
+  }
+
+  .container .box .container-light i,
+  .container .box .container-light h3 {
+    width: 21%;
+  }
+
+  section .container {
+    display: flex;
+  }
+
+  section .container img {
+    margin-bottom: 200px;
+  }
+
+  section .container .box {
+    width: 50%;
+    margin-left: 100px;
+  }
+
+  section .container .box img {
+    margin-bottom: 20px;
+  }
+
+  section .container .box .container-light h3 {
+    width: 37%;
+  }
+
+  section .container .box .container-light p {
+    width: 25%;
+  }
+
+  .testimonials .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+  }
+
+  .testimonials .container .text {
+    width: 60%;
+  }
+
+  .benefits .container {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .benefits .container > h2 {
+    width: 100%;
+  }
+
+  .about-us .container {
+    width: 1140px;;
   }
 }
