@@ -243,3 +243,41 @@ section .container .box .container-light h3 {
   content: '\f08c';
   padding-right: 10px;
 }
+/* /About Us */
+
+/* Started */
+.started .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.started .container span {
+  color: #D5D3F4;
+  
+}
+
+.started .container h3 {
+  font-size: 1.8em;
+  color: white;
+}
+
+.started .container h2 {
+  font-size: 4em;
+  color: #FDC15F;
+}
+
+.started .container p {
+  color: white;
+}
+
+.started .container .button {
+  background-color: white;
+  color: #9792E4;
+}
+
+.started .container a {
+  color: white;
+}
+/* /Started */
