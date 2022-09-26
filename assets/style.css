@@ -63,6 +63,13 @@ p {
   border-radius: 30px;
 }
 
+/* UTILITY */
+.clearfix::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
 /* HEADER */
 
 header .container {
@@ -147,6 +154,10 @@ section .container .box {
   background-color: white;
   display: flex;
   flex-direction: column;
+}
+
+section .container .box img {
+  width: 100%;
 }
 
 section .container .box .container-light h3 {
@@ -262,7 +273,6 @@ section .container .box .container-light h3 {
 
 .started .container span {
   color: #D5D3F4;
-  
 }
 
 .started .container h3 {
@@ -298,4 +308,45 @@ footer .container p {
 
 footer .container a {
   color: #9792E4;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 810px) {
+  .container .box img {
+    width: 50%;
+  }
+
+  .testimonials .container .box {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .testimonials .container .box .text {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .benefits .container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .benefits .container .box {
+    width: 46%;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: start;
+  }
+
+  .benefits .container > h2 {
+    font-size: 2.5em;
+  }
+
+  .benefits .container .box p {
+    width: 60%;
+  }
+
 }
